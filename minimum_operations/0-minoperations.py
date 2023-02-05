@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 """min operation function"""
 from math import sqrt
 
