@@ -24,7 +24,7 @@ def rain(walls):
             start = i
             i = i + 1
             continue
-        if start is not None and walls[i] > walls[i - 1] and walls[i] > last:
+        if start is not None and walls[i] > walls[i - 1] and walls[i] >= last:
             end = i
             continue
         i = i+1
