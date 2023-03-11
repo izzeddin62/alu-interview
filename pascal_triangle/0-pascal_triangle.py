@@ -3,6 +3,7 @@
 pascal's triangle
 """
 
+
 def pascal_triangle(n):
     """get pascal triangle to a certain index"""
     if n <= 0:
