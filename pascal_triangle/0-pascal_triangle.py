@@ -14,4 +14,4 @@ def pascal_triangle(n):
         for j in range(0, len(list_above) - 1):
             row.append(list_above[j] + list_above[j + 1])
         result.append(row)
-    return result
+    return result[:n]
